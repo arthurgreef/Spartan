@@ -35,7 +35,7 @@ itertools = "0.10.0"
 colored = "2.0.0"
 flate2 = "1.0.14"
 thiserror = "1.0"
-zerocaf = {version = "0.2.0", path = "../../github/dusk-zerocaf"}
+zerocaf = {version = "0.2.0", path = "../dusk-zerocaf"}
 num-bigint = { version = "0.4", features = ["serde", "rand"] }
 num-traits = "0.2"
 
