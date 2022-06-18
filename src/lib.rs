@@ -16,13 +16,18 @@ extern crate test;
 #[cfg(feature = "multicore")]
 extern crate rayon;
 
+pub mod bellperson;
 mod commitments;
+pub mod curve25519;
+//pub mod sonny;
 mod dense_mlpoly;
 mod errors;
+pub mod gadgets;
 mod group;
 mod math;
 mod nizk;
 mod product_tree;
+pub mod r1cs;
 mod r1csinstance;
 mod r1csproof;
 mod random;
@@ -30,6 +35,7 @@ mod scalar;
 mod sparse_mlpoly;
 mod sumcheck;
 mod timer;
+mod traits;
 mod transcript;
 mod unipoly;
 
